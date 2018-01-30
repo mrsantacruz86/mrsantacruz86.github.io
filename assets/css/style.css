@@ -30,15 +30,21 @@ header {
 #menu li {
     list-style: none;
     display: inline-block;
+    font-size: 20px;
+    color: #777777;
+    margin-top: 40px;
+}
+
+#menu li a {
+    text-decoration: none;
     padding-right: 20px;
     padding-left: 20px;
     padding-top: 40px;
     padding-bottom: 40px;
-    font-size: 20px;
-    color: #777777
+    color: #777777;
 }
 
-#menu li:hover {
+#menu li a:hover {
     background-color: #4aaaa5;
     color: #ffffff;
 }
@@ -113,6 +119,48 @@ footer {
 
 .social-link {
     width: 65px;
+}
+
+.form-item {
+    display: block;
+    width: 100%;
+    height: 30px;
+}
+
+.label {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #777777;
+}
+
+#message {
+    height: 150px;
+}
+
+.text {
+    height: 40px;
+    font-size: 16px;
+    color: #777777;
+    border: 1px solid #cccccc;
+    padding: 5px 10px 5px 10px;
+    box-sizing: border-box;
+}
+
+#submit {
+    width: 100px;
+    height: 40px;
+    font-size: 18px;
+    color: #ffffff;
+    margin-top: 20px;
+    background: #4aaaa5;
+}
+
+#submit:hover {
+    background: #2d6966
+}
+
+article img {
+    width: 40%;
 }
 
 
