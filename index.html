@@ -13,42 +13,48 @@
 <body>
     <!-- header and navigator -->
     <header>
-        <h1 id="fullName"> 
-            Nelson Diaz
-        </h1>
-        <nav>
-            <ul id="menu">
-                <li>About</li>
-                <li>Portfolio</li>
-                <li>Contact</li>
-            </ul>
-        </nav>
+        <div class="container"> <!-- container to align the header section. -->
+            <h1 id="fullName"> 
+                Nelson Diaz
+            </h1>
+            <nav>
+                <ul id="menu">
+                    <li>About</li>
+                    <li>Portfolio</li>
+                    <li>Contact</li>
+                </ul>
+            </nav>
+        </div>
     </header>
 
-    <!-- Main section  -->
-    <Section id="mainSection">
-        <h2 class="sectionTitle">About Me</h2>
-    </Section>
     
-    <!-- Connect with me section -->
-    <Section id="socialSection">
-        <h2 class="sectionTitle">Connect with Me</h2>
-        <p>
-            I was born and raised in Cuba. I came to US at on 2009 at the Age of 23. I have a beautiful wife and I'm the father of a 1 year old girl. This is my first kid and even though going through parenthood has not been easy it has been the one of the most beautiful
-            experiences of my life. I'm very grateful to God for giving me such a beautiful family.
-        </p>
-        <p>
-            I'm a Christian Youth Pastor at a Baptist Church in Hialeah, which is one of my greatest passions in life. I also have a job in a place called His House Children's Home. In my free time I do professional photography. So, as you can see, I have to manage
-            time precisely to get all those things done.
-        </p>
-        <p>
-            Coding is one of my passions, I've always dreamed of being a professional developer. That means that I'm going to take very seriously every class and assignment. The UM Coding Bootcamp provides me the opportunity I'm seeking to explore the world of Web
-            Development and eventually find a better job in that field.
-        </p>
-    </Section>
+    <div class="container">
+        <article id="main-section"> <!-- Main section  -->
+            <h2 class="section-title" id="article-title">About Me</h2>
+            <img src="assets/images/profile-picture.jpg" alt="Profile Picture" id="profile-picture">
+            <p>
+                I was born and raised in Cuba. I came to US at on 2009 at the Age of 23. I have a beautiful wife and I'm the father of a 1 year old girl. This is my first kid and even though going through parenthood has not been easy it has been the one of the most beautiful
+                experiences of my life. I'm very grateful to God for giving me such a beautiful family.
+            </p>
+            <p>
+                I'm a Christian Youth Pastor at a Baptist Church in Hialeah, which is one of my greatest passions in life. I also have a job in a place called His House Children's Home. In my free time I do professional photography. So, as you can see, I have to manage
+                time precisely to get all those things done.
+            </p>
+            <p>
+                Coding is one of my passions, I've always dreamed of being a professional developer. That means that I'm going to take very seriously every class and assignment. The UM Coding Bootcamp provides me the opportunity I'm seeking to explore the world of Web
+                Development and eventually find a better job in that field.
+            </p>
+        </article>
+    
+        <Section id="social-section"> <!-- Connect with me section -->
+            <h2 class="section-title" id="side-pannet-title">Connect with Me</h2>
+        </Section>
+
+    </div>
+    
 
     <footer>
-        <p>Copyright 2018. Nelson Diaz</p>
+        &copy; Copyright 2018. Nelson Diaz
     </footer>
 
 </body>
