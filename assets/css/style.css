@@ -63,6 +63,7 @@ article {
     width: 640px;
     background: #ffffff;
     padding: 20px;
+    margin-bottom: 100px;
 }
 
 article p {
@@ -109,6 +110,7 @@ footer {
     bottom: 0;
     width: 100%;
     text-align: center;
+    border-top: 4px solid #4aaaa5;
 }
 
 #profile-picture {
@@ -161,6 +163,29 @@ footer {
 
 article img {
     width: 40%;
+}
+
+.img-container {
+    position: relative;
+    margin: 10px;
+    float: left;
+}
+
+.img-container img {
+    width: 200px;
+}
+
+.img-container div {
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 100%;
+    opacity: 0.8;
+    text-align: center;
 }
 
 
