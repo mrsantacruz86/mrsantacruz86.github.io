@@ -1,81 +1,147 @@
-<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Basic Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <title>Responsive Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Font Awesome CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
 </head>
 
 <body>
-    <!-- header and navigator -->
+
     <header>
-        <div class="container">
-            <!-- container to align the header section. -->
-            <h1 id="fullName">
-                Nelson Diaz
-            </h1>
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="index.html">About</a> </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a> </li>
-                    <li>
-                        <a href="contact.html">Contact</a> </li>
-                </ul>
-            </nav>
-        </div>
+        <!-- header and navigator -->
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="brand-wrapper">
+                        <a class="navbar-brand" href="#">Nelson Diaz</a>
+                    </div>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="index.html" class>About</span></a></li>
+                        <li class="active"><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
     </header>
 
-
-    <section class="container">
-        <article id="main-section">
-            <!-- Main section  -->
-            <h2 class="section-title" id="article-title">Portfolio</h2>
-
-            <div class="img-container">
-                <a href="#"><img src="assets/images/port-img-1.jpg" alt="Hangman" id="hang-man"></a>
-                <div>Hangman</div>
+    <div class="container">
+        <section class="row">
+            <div class="col-md-8">
+                <!-- Main section  -->
+                <article class="section panel panel-default">
+                    <div class="panel-heading">
+                        <h1 class="panel-title">Portfolio</h1>
+                    </div>
+                    <div class="panel-body">
+                        <div class="row">
+                            <div class="col-xs-6 col-sm-4">
+                                <a href="#" class="thumbnail">
+                                    <img src="assets/images/port-img-1.jpg" alt="Hangman" id="hang-man">
+                                    <div class="caption">
+                                        Hangman
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <a href="#" class="thumbnail">
+                                    <img src="assets/images/port-img-2.jpg" alt="RPG Game" id="rpg-game">
+                                    <div class="caption">
+                                        RPG Game
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <a href="#" class="thumbnail">
+                                    <img src="assets/images/port-img-3.jpg" alt="Trivia" id="trivia">
+                                    <div class="caption">
+                                        Trivia Game
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <a href="#" class="thumbnail">
+                                    <img src="assets/images/port-img-4.jpg" alt="Games" id="rinf-wid">
+                                    <div class="caption">
+                                        Rutgers Info Widget
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col-xs-6 col-sm-4">
+                                <a href="#" class="thumbnail">
+                                    <img src="assets/images/port-img-5.jpg" alt="Games" id="rock-paper">
+                                    <div class="caption">
+                                        Rock Paper Scissor
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
             </div>
-            <div class="img-container">
-                <a href="#"><img src="assets/images/port-img-2.jpg" alt="RPG Game" id="rpg-game"></a>
-                <div>RPG Game</div>
+
+            <!-- end of col -->
+            <div class="col-md-4">
+                <aside class="section panel panel-default">
+                    <!-- Connect with me section -->
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Connect with Me</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="link-wrap">
+                            <a href="https://github.com/mrsantacruz86" target="_blank">
+                                <span class="fab fa-github fa-3x"></span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/nelson-diaz-a33073154/" target="_blank">
+                                <span class="fab fa-linkedin-in fa-3x"></span></a>
+                            </a>
+                            <a href="https://stackoverflow.com/users/6732042/mrsantacruz86?tab=profile" target="_blank">
+                                <span class="fab fa-stack-overflow fa-3x"></span></a>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
             </div>
-            <div class="img-container">
-                <a href="#"><img src="assets/images/port-img-3.jpg" alt="Trivia" id="trivia"></a>
-                <div>Trivia Game</div>
-            </div>
-            <div class="img-container">
-                <a href="#"><img src="assets/images/port-img-4.jpg" alt="Games" id="rinf-wid"></a>
-                <div>Rutgers Info Widget</div>
-            </div>
+        </section>
+        <!-- end of col -->
+    </div>
+    <!-- end of the row -->
+    </div>
+    <!-- end of container -->
 
-            <div class="img-container">
-                <a href="#"><img src="assets/images/port-img-5.jpg" alt="Games" id="rock-paper"></a>
-                <div>Rock Paper Scissor</div>
-            </div>
-
-        </article>
-
-        <aside id="social-section">
-            <!-- Connect with me section -->
-            <h2 class="section-title" id="side-panel-title">Connect with Me</h2>
-            <a href="https://github.com/mrsantacruz86" target="_blank"><img src="assets/images/git-icon.png" alt="Connect with us on GitHub" class="social-link"></a>
-            <a href="https://www.linkedin.com/in/nelson-diaz-a33073154/" target="_blank"><img src="assets/images/linkedin-icon.png" alt="Connect with us on LinkedIn" class="social-link"></a>
-            <a href="https://stackoverflow.com/users/6732042/mrsantacruz86?tab=profile" target="_blank"><img src="assets/images/stackof-icon.png" alt="Connect with us on GitHub" class="social-link"></a>
-        </aside>
-
-    </section>
-
-
-    <footer>
+    <div>
         <!-- Pager Footer -->
-        &copy; Copyright 2018. Nelson Diaz
-    </footer>
+        <footer class="footer navbar-fixed-bottom">
+            <div class="container">
+                <p class="text-muted">&copy; Copyright 2018. Nelson Diaz</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.6.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
 

@@ -1,196 +1,106 @@
+/* Stylesheet */
+
 body {
-    background-image: url("assets/images/bg-large.png");
-    background: #eeeeee;
+    background-color: #eee;
+    max-height: 2000px;
+    padding-top: 70px;
+    margin-bottom: 50px;
 }
 
-header {
+.navbar {
     border-bottom: 2px solid #cccccc;
-    background: #ffffff;
-    /* position: fixed; */
-    top: 0;
-    /* height: 100px; */
-    margin-bottom: 20px;
 }
 
-#fullName {
-    font-family: 'Georgia, Times New Roman, Times, serif';
+.navbar-default .navbar-brand:hover {
+    color: white;
     background-color: #4aaaa5;
-    color: #ffffff;
-    padding: 30px;
-    width: 300px;
-    text-align: center;
-    font-weight: bold;
-    display: inline-block;
 }
 
-.sectionTitle {
+.navbar-default .navbar-brand:focus {
+    color: white;
+    background-color: #4aaaa5;
+}
+
+.profile-picture {
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.panel-title {
+    font-size: 24px;
     color: #4aaaa5;
 }
 
-#menu li {
-    list-style: none;
-    display: inline-block;
-    font-size: 20px;
-    color: #777777;
-    margin-top: 40px;
+.panel-default {
+    box-shadow: 1px 1px 3px 0px #888888;
+    font-size: 18px;
+    color: #777;
+    line-height: 1.6;
 }
 
-#menu li a {
-    text-decoration: none;
-    padding-right: 20px;
-    padding-left: 20px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    color: #777777;
+a .fa-3x {
+    color: #4aaaa5;
+    margin-right: 10px;
+    margin-left: 10px;
 }
 
-#menu li a:hover {
-    background-color: #4aaaa5;
-    color: #ffffff;
-}
-
-nav {
-    float: right;
-}
-
-.container {
-    width: 960px;
+.link-wrap {
+    width: fit-content;
     margin: 0 auto;
 }
 
-article {
-    float: left;
-    width: 640px;
-    background: #ffffff;
-    padding: 20px;
-    margin-bottom: 100px;
+.media-links {
+    margin: 0 auto;
 }
 
-article p {
-    font-size: 18px;
-    color: #777777;
-    line-height: 1.5;
-}
-
-aside {
-    float: right;
-    width: 210px;
-    background: #ffffff;
-    padding: 20px;
-}
-
-#profile-picture {
-    width: 250px;
-}
-
-h2 {
-    border-bottom: 3px solid #ccc;
-    font-size: 36px;
-    font-weight: bold;
-    color: #4aaaa5;
-    padding-top: 10px;
-    padding-bottom: 20px;
-    margin-bottom: 30px;
-    font-family: 'Georgia, Times New Roman, Times, serif';
-}
-
-#side-panel-title {
-    font-size: 25px;
-}
-
-h1 {
-    font-size: 40px;
+#submitMessage {
+    background: #4aaaa5;
+    color: #fff;
 }
 
 footer {
-    position: fixed;
-    background: #666666;
-    color: #cccccc;
-    padding: 20px;
-    bottom: 0;
-    width: 100%;
-    text-align: center;
-    border-top: 4px solid #4aaaa5;
-}
-
-#profile-picture {
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-}
-
-.social-link {
-    width: 65px;
-}
-
-.form-item {
-    display: block;
-    width: 100%;
-    height: 30px;
-}
-
-.label {
-    margin-top: 30px;
-    font-size: 18px;
-    color: #777777;
-}
-
-#message {
-    height: 150px;
-}
-
-.text {
-    height: 40px;
-    font-size: 16px;
-    color: #777777;
-    border: 1px solid #cccccc;
-    padding: 5px 10px 5px 10px;
-    box-sizing: border-box;
-}
-
-#submit {
-    width: 100px;
-    height: 40px;
-    font-size: 18px;
-    color: #ffffff;
-    margin-top: 20px;
-    background: #4aaaa5;
-}
-
-#submit:hover {
-    background: #2d6966
-}
-
-article img {
-    width: 40%;
-}
-
-.img-container {
-    position: relative;
-    margin: 10px;
-    float: left;
-}
-
-.img-container img {
-    width: 200px;
-}
-
-.img-container div {
     position: absolute;
-    bottom: 10px;
-    left: 0;
-    background-color: #4aaaa5;
-    color: #ffffff;
+    bottom: 0;
+    background: #ccc;
+    /* width: 100%; */
     padding-top: 15px;
-    padding-bottom: 15px;
-    width: 100%;
-    opacity: 0.8;
-    text-align: center;
+    /* padding-bottom: 20px; */
+    border-top: 3px solid #4aaaa5;
+    /* margin-top: 15px; */
+    height: 50px;
 }
 
+.navbar-default .navbar-brand {
+    color: white;
+    margin-left: 15px;
+    font-size: 35px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: #4aaaa5;
+}
 
-/* .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
-} */
+a.thumbnail {
+    position: relative;
+    border: none;
+    padding: 0;
+}
+
+.thumbnail img {
+    width: 100%;
+}
+
+.thumbnail .caption {
+    color: #fff;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    bottom: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    background: #4aaaa5;
+    opacity: 0.8;
+}
+
+textarea {
+    max-width: 100%;
+}

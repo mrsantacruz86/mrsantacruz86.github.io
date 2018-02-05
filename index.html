@@ -1,72 +1,129 @@
-<!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Basic Portfolio</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
+    <title>Responsive Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <!-- Font Awesome CDN -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
+
 </head>
 
 <body>
-    <!-- header and navigator -->
+
     <header>
-        <div class="container">
-            <!-- container to align the header section. -->
-            <h1 id="fullName">
-                Nelson Diaz
-            </h1>
-            <nav>
-                <ul id="menu">
-                    <li>
-                        <a href="index.html">About</a> </li>
-                    <li>
-                        <a href="portfolio.html">Portfolio</a> </li>
-                    <li>
-                        <a href="contact.html">Contact</a> </li>
-                </ul>
-            </nav>
-        </div>
+        <!-- header and navigator -->
+        <!-- Fixed navbar -->
+        <nav class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <div class="brand-wrapper">
+                        <a class="navbar-brand" href="#">Nelson Diaz</a>
+                    </div>
+                </div>
+                <div id="navbar" class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="index.html" class>About</span></a></li>
+                        <li><a href="portfolio.html">Portfolio</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <!--/.nav-collapse -->
+            </div>
+        </nav>
     </header>
 
-
     <div class="container">
-        <article id="main-section">
-            <!-- Main section  -->
-            <h2 class="section-title" id="article-title">About Me</h2>
-            <img src="assets/images/profile-picture.jpg" alt="Profile Picture" id="profile-picture">
-            <p>
-                I was born and raised in Cuba. I came to US at on 2009 at the Age of 23. I have a beautiful wife and I'm the father of a 1 year old girl. This is my first kid and even though going through parenthood has not been easy it has been the one of the most beautiful
-                experiences of my life. I'm very grateful to God for giving me such a beautiful family.
-            </p>
-            <p>
-                I'm a Youth Pastor at a Baptist Church in Hialeah, which is one of my greatest passions in life. I also have a job in a place called His House Children's Home. In my free time I do professional photography. So, as you can see, I have to manage time precisely
-                to get all those things done.
-            </p>
-            <p>
-                Coding is one of my passions, I've always dreamed of being a professional developer. That means that I'm going to take very seriously every class and assignment. The UM Coding Bootcamp provides me the opportunity I'm seeking to explore the world of Web
-                Development and eventually find a better job in that field.
-            </p>
-        </article>
+        <section class="row">
+            <div class="col-md-8">
+                <!-- Main section  -->
+                <article class="section panel panel-default">
+                    <div class="panel-heading">
+                        <h1 class="panel-title">About Me</h1>
+                    </div>
+                    <div class="panel-body">
+                        <div class="profile-picture">
+                            <img src="assets/images/profile-picture.jpg" alt="Profile Picture" class="img-rounded">
+                        </div>
+                        <p>
+                            I was born and raised in Cuba. I came to US at on 2009 at the Age of 23. I have a beautiful wife and I'm the father of a 1 year old girl. This is my first kid and even though going through parenthood has not been easy it has been the one of the most beautiful
+                            experiences of my life. I'm very grateful to God for giving me such a beautiful family.
+                        </p>
+                        <p>
+                            I'm a Youth Pastor at a Baptist Church in Hialeah, which is one of my greatest passions in life. I also have a job in a place called His House Children's Home. In my free time I do professional photography. So, as you can see, I have to manage time precisely
+                            to get all those things done.
+                        </p>
+                        <p>
+                            Coding is one of my passions, I've always dreamed of being a professional developer. That means that I'm going to take very seriously every class and assignment. The UM Coding Bootcamp provides me the opportunity I'm seeking to explore the world of Web
+                            Development and eventually find a better job in that field.
+                        </p>
 
-        <aside id="social-section">
-            <!-- Connect with me section -->
-            <h2 class="section-title" id="side-panel-title">Connect with Me</h2>
-            <a href="https://github.com/mrsantacruz86" target="_blank"><img src="assets/images/git-icon.png" alt="Connect with us on GitHub" class="social-link"></a>
-            <a href="https://www.linkedin.com/in/nelson-diaz-a33073154/" target="_blank"><img src="assets/images/linkedin-icon.png" alt="Connect with us on LinkedIn" class="social-link"></a>
-            <a href="https://stackoverflow.com/users/6732042/mrsantacruz86?tab=profile" target="_blank"><img src="assets/images/stackof-icon.png" alt="Connect with us on GitHub" class="social-link"></a>
-        </aside>
+                    </div>
+                </article>
+            </div>
 
+            <!-- end of col -->
+            <div class="col-md-4">
+                <aside class="section panel panel-default">
+                    <!-- Connect with me section -->
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Connect with Me</h3>
+                    </div>
+                    <div class="panel-body">
+                        <div class="link-wrap">
+                            <a href="https://github.com/mrsantacruz86" target="_blank">
+                                <span class="fab fa-github fa-3x"></span>
+                            </a>
+                            <a href="https://www.linkedin.com/in/nelson-diaz-a33073154/" target="_blank">
+                                <span class="fab fa-linkedin-in fa-3x"></span></a>
+                            </a>
+                            <a href="https://stackoverflow.com/users/6732042/mrsantacruz86?tab=profile" target="_blank">
+                                <span class="fab fa-stack-overflow fa-3x"></span></a>
+                            </a>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </section>
+        <!-- end of col -->
     </div>
+    <!-- end of the row -->
+    </div>
+    <!-- end of container -->
 
-
-    <footer>
+    <div>
         <!-- Pager Footer -->
-        &copy; Copyright 2018. Nelson Diaz
-    </footer>
+        <footer class="footer navbar-fixed-bottom">
+            <div class="container">
+                <p class="text-muted">&copy; Copyright 2018. Nelson Diaz</p>
+            </div>
+        </footer>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
 </body>
+<style>
+    @media screen and (max-width: 768px) {
+        .profile-picture {
+            width: 100%;
+        }
+    }
+</style>
 
 </html>
