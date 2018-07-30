@@ -1,0 +1,12 @@
+.personal-info{
+	margin-top: 7rem;
+	background: none;
+	color: #07313B;
+	text-align: center;
+}
+.profile-picture{
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	/* box-shadow: 1px 1px 6px 4px darkgrey; */
+	max-width: 90%;
+}
