@@ -4,34 +4,27 @@ import './Navbar.css';
 
 class App extends Component {
   render() {
-    const styles = {
-      navbarStyle: {
-        backgroundColor: "#0C5161"
-      }
-    };
+    // const styles = {
+    //   navbarStyle: {
+    //     backgroundColor: "#0C5161"
+    //   }
+    // };
     return (
-      <nav className="navbar navbar-expand fixed-top navbar-dark" style={styles.navbarStyle}>
+        <nav className="icon-bar fixed-top">
 
-        <div className="container-fluid mx-auto">
+          <NavLink route="/" label="Home">
+            <i className="fas fa-home fa-2x"></i>
+          </NavLink>
 
-          <ul className="navbar-nav d-flex">
+          <NavLink label="Portfolio" route="/portfolio" >
+            <i className="fas fa-suitcase fa-2x"></i>
+          </NavLink>
 
-            <NavLink route="/" label="Home">
-              <i className="fas fa-home fa-3x"></i>
-            </NavLink>
+          <NavLink label="Contact Me" route="/contact">
+            <i className="fas fa-phone fa-2x"></i>
+          </NavLink>
 
-            <NavLink label="Portfolio" route="/portfolio" >
-              <i className="fas fa-suitcase fa-3x"></i>
-            </NavLink>
-
-            <NavLink label="Contact Me" route="/contact">
-              <i className="fas fa-phone fa-3x"></i>
-            </NavLink>
-
-          </ul>
-
-        </div>
-      </nav>
+        </nav>
     );
   }
 }

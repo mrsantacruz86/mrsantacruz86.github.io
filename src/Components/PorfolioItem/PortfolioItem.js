@@ -3,7 +3,7 @@ import './PortfolioItem.css';
 
 class NavLink extends Component {
   render() {
-    const { id, projectName, github, website, tech, description } = this.props.project;
+    const { id, projectName, github, website, description } = this.props.project;
     return (
       <div className="portfolio-item col-md-3">
         <div className="card">
