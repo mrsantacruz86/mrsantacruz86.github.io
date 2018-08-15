@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import InputText from "../../Components/InputText";
 import Textarea from "../../Components/Textarea";
 import './Contact.css';
+// const sendEmail = require('../../utils/sendEmail');
 import sendEmail from '../../utils/sendEmail';
 
 class Contact extends Component {
@@ -35,7 +36,8 @@ class Contact extends Component {
       html: `<h3>From: ${this.state.name}</h3>
       <p> ${this.state.message}</p>` // html body
     };
-    sendEmail(mailOptions);
+    
+    // sendEmail(mailOptions);
   }
 
   render() {
