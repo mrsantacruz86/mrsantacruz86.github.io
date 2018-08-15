@@ -1,37 +1,25 @@
 import React, { Component } from 'react';
 import PortfolioCollection from "../../Components/PorfolioCollection";
 import './Portfolio.css';
+import projects from "./../../projects.json";
 
-class App extends Component {
-  collection = [
-    {
-      id: 1,
-      rate: 4,
-      projectName: "Clicky-Game",
-      github: "https://github.com/mrsantacruz86/clicky-react",
-      website: "https://mrsantacruz86.github.io/clicky-react/",
-      tech: ["React", "ES6", "Bootstrap"],
-      description: "Game to test your mind."
-    },
-    {
-      id: 2,
-      rate: 4,
-      projectName: "Eat-da-Burger",
-      github: "https://github.com/mrsantacruz86/burger-app",
-      website: "https://my-burger-list-2018.herokuapp.com/",
-      tech: ["Node", "Express", "Handlebars", "MySQL", "JQuery","Bootstrap"],
-      description: "Burger wishlist"
+class Portfolio extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      projects: projects
     }
-  ]
+  }
+
   render() {
     return (
       <div>
         <h1>Projects</h1>
-        <hr/>
-        <PortfolioCollection collection={this.collection}/>
+        <hr />
+        <PortfolioCollection collection={this.state.projects} />
       </div>
     );
   }
 }
 
-export default App;
+export default Portfolio;

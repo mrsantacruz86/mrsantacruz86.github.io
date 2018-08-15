@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import InputText from "../../Components/InputText";
 import Textarea from "../../Components/Textarea";
 import './Contact.css';
+import sendEmail from '../../utils/sendEmail';
 
 class Contact extends Component {
   constructor(props) {
@@ -25,6 +26,16 @@ class Contact extends Component {
     console.log(this.state.email);
     console.log(this.state.message);
     this.setState({name:"", email:"" , message:""});
+
+    let mailOptions = {
+      from: `'Web Portfolio' <${this.state.email}>`, // sender address
+      to: '"Nelson Diaz" <abnerdc86@gmail.com>', // list of receivers
+      subject: 'Web Portfolio Contact Message ✔', // Subject line
+      text: `From: ${this.state.name}\n ${this.state.message}`, // plain text body
+      html: `<h3>From: ${this.state.name}</h3>
+      <p> ${this.state.message}</p>` // html body
+    };
+    sendEmail(mailOptions);
   }
 
   render() {
