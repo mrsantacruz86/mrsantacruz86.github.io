@@ -24,4 +24,3 @@ const sendEmail = mailOptions => {
 }
 
 module.exports = sendEmail;
-
