@@ -23,5 +23,5 @@ const sendEmail = (mailOptions) =>{
 	});
 }
 
-module.exports sendEmail;
+module.exports = sendEmail;
 
