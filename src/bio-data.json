@@ -1,0 +1,104 @@
+{
+  "bio": "Im a Full Stack Web Developer specialized in Javascript with a Math and Physics background, passionate for back-end web development I specialized in NodeJS. I think technology exists to make human work easier so I'm alwasy trying to expand my knowledge so I can make a proper use of Technology to solve real life problems and to make my work and the work of my team a bit easier.",
+  "skills": [
+    {
+      "type": "Front-end",
+      "tech": [
+        "HTML5",
+        "CSS3",
+        "Javascript",
+        "React",
+        "Redux",
+        "JSX",
+        "JQuery",
+        "Bootstrap",
+        "Handlebars",
+        "RESTful APIs",
+        "AJAX"
+      ]
+    },
+    {
+      "type": "Back-end",
+      "tech": [
+        "Node JS",
+        "Express",
+        "RESTful APIs",
+        "JSON",
+        "Axios",
+        "Request",
+        "MVC Architecture",
+        "ES6"
+      ]
+    },
+    {
+      "type": "Unit Testing",
+      "tech": [
+        "Mocha",
+        "Jasmine",
+        "Chai"
+      ]
+    },
+    {
+      "type": "Database",
+      "tech": [
+        "Firebase",
+        "MySQL",
+        "MongoDB",
+        "Sequelize",
+        "Mongoose"
+      ]
+    },
+    {
+      "type": "Tools",
+      "tech": [
+        "Bash Shell",
+        "Linux",
+        "Git /GitHub",
+        "GitHub Projects",
+        "Heroku",
+        "MySQL Workbench",
+        "VS Code",
+        "Sublime",
+        "GitKraken",
+        "Sourcetree",
+        "Adobe XD",
+        "Sketch"
+      ]
+    },
+    {
+      "type": "Database",
+      "tech": [
+        "Firebase",
+        "MySQL",
+        "MongoDB",
+        "Sequelize",
+        "Mongoose"
+      ]
+    },
+    {
+      "type": "Languages",
+      "tech": [
+        "Javascript", "Java"
+      ]
+    },
+    {
+      "type": "Other Technologies",
+      "tech": [
+        "Spring MVC",
+        "Servlet",
+        "JSP",
+        "JSTL",
+        "JDBC",
+        "Design Patterns",
+        "C#",
+        "C/C++",
+        "VB"
+      ]
+    }
+  ],
+  "experience":[
+    {
+      
+    }
+  ]
+}

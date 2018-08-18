@@ -1,13 +1,37 @@
 import React, { Component } from 'react';
 import './Home.css';
+import about from '../../bio-data.json';
 
 class Home extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      about: about
+    }
+  }
+
   render() {
+
     return (
       <div>
-        <h1>Bio Section goes here</h1>
-        <p>Bio Section goes here<i className="fab fa-github"></i></p>
-        
+        <h2>ABOUT ME</h2>
+        <hr />
+        <p>{this.state.about.bio}</p>
+
+        <h2>TECHNICAL SKILLS</h2>
+
+        <ul>
+          {
+            this.state.about.skills.map(skill => (
+              <li >
+                <span className="font-weight-bold">{skill.type}: </span>
+                {skill.tech.join(", ")}
+              </li>
+
+            ))
+          }
+        </ul>
+
       </div>
     );
   }
