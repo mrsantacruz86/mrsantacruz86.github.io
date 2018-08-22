@@ -13,13 +13,13 @@ class Home extends Component {
   render() {
 
     return (
-      <div>
+      <div className="page-content">
         <h2>ABOUT ME</h2>
         <hr />
         <p>{this.state.about.bio}</p>
 
         <h2>TECHNICAL SKILLS</h2>
-
+        <hr/>
         <ul>
           {
             this.state.about.skills.map(skill => (
