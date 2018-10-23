@@ -85,5 +85,21 @@
       "CSS"
     ],
     "description": "Hang-man game with a Star Wars theme."
+  },
+  {
+    "id": 7,
+    "rate": 4,
+    "projectName": "Search the Globe",
+    "github": "https://github.com/mrsantacruz86/search-the-globe",
+    "website": "https://search-the-globe.herokuapp.com/",
+    "tech": [
+      "Javascript",
+      "React",
+      "Bootstrap",
+      "Redux",
+      "RESTful API request",
+      "Asyncronous actions"
+    ],
+    "description": "Hang-man game with a Star Wars theme."
   }
 ]
