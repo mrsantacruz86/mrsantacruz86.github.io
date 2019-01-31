@@ -1,7 +1,11 @@
+// WEBPACK CONFIGURATION FILE
+
+const path = require('path');
+
 module.exports = {
-	entry: './src/js/main.js',
+	entry: './src/js/app.js',
 	output: {
-		path: __dirname + '/dist',
+		path: path.resolve(__dirname, '/dist'),
 		filename: 'bundle.js'
 	},
 	module: {

@@ -3,7 +3,6 @@ $(function () {
 
 	$readMoreLink.on("click", function (e) {
 		e.preventDefault();
-		$(this).parent().next("div").show();
-		$(this).remove();
+		alert("The link has been clicked!")
 	});
 });
