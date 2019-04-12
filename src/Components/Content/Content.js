@@ -5,7 +5,7 @@ import Home from '../../Pages/Home'
 import Contact from '../../Pages/Contact'
 import Portfolio from '../../Pages/Portfolio'
 
-class App extends Component {
+class Content extends Component {
   render() {
     return (
       <Router>
@@ -21,4 +21,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Content;
