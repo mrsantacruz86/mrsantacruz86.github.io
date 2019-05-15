@@ -14,11 +14,11 @@ class Home extends Component {
 
     return (
       <div className="page-content">
-        <h2>ABOUT ME</h2>
+        <h1>ABOUT ME</h1>
         <hr />
         <p>{this.state.about.bio}</p>
 
-        <h2>TECHNICAL SKILLS</h2>
+        <h1>TECHNICAL SKILLS</h1>
         <hr/>
         <ul>
           {

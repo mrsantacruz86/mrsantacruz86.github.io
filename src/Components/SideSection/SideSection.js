@@ -2,29 +2,35 @@ import React, { Component } from 'react';
 import './SideSection.css';
 import SocialSection from '../SocialSection';
 
+const socialNetworks = [
+  {
+    id: 1,
+    name: "Email",
+    icon: "envelope",
+    link: "mailto:abnerdc86@gmail.com"
+  },
+  {
+    id: 2,
+    name: "GitHub",
+    icon: "github",
+    link: "https://github.com/mrsantacruz86"
+  },
+  {
+    id: 3,
+    name: "Linked In",
+    icon: "linkedin-in",
+    link: "https://www.linkedin.com/in/nelson-diaz-a33073154/"
+  },
+  // {
+  //   id: 4,
+  //   name: "Stack Overflow",
+  //   icon: "stack-overflow",
+  //   link: "https://stackoverflow.com/users/6732042/mrsantacruz86?tab=profile"
+  // }
+]
 
 class SideSection extends Component {
   render() {
-    let socialNetworks = [
-      {
-        id: 1,
-        name: "GitHub",
-        icon: "github",
-        link: "https://github.com/mrsantacruz86"
-      },
-      {
-        id: 2,
-        name: "Linked In",
-        icon: "linkedin-in",
-        link: "https://www.linkedin.com/in/nelson-diaz-a33073154/"
-      },
-      {
-        id: 3,
-        name: "Stack Overflow",
-        icon: "stack-overflow",
-        link: "https://stackoverflow.com/users/6732042/mrsantacruz86?tab=profile"
-      }
-    ]
     return (
       <div className="card personal-info border-0">
         <div className="card-body">
@@ -38,7 +44,7 @@ class SideSection extends Component {
 
           <hr />
 
-          <a href="mailto:abnerdc86@gmail.com">
+          {/* <a href="mailto:abnerdc86@gmail.com">
             <p>
               <i className="fas fa-envelope"></i> abnerdc86@gmail.com
             </p>
@@ -48,13 +54,12 @@ class SideSection extends Component {
             <p>
               <i className="fas fa-globe-americas"></i> https://mrsantacruz86.github.io
             </p>
-          </a>
-
-          <hr/>
+          </a> */}
 
           <div className="justify-content-md-center">
             <SocialSection networks={socialNetworks} />
           </div>
+          <hr />
 
         </div>
 

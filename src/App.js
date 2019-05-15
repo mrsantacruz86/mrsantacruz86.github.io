@@ -10,15 +10,15 @@ class App extends Component {
     return (
       <div className="App">
         <Navbar />
-        <div className="container-fluid">
+        <div className="container">
 
           <div className="row">
 
-            <aside className="col-md-3">
+            <aside className="col-md-4">
               <SideSection />
             </aside>
 
-            <section className="col-md-9">
+            <section className="col-md-8">
               <Content />
             </section>
 
