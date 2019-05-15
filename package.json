@@ -4,7 +4,6 @@
   "private": true,
   "homepage": "https://mrsantacruz86.github.io",
   "dependencies": {
-    "gh-pages": "^1.2.0",
     "nodemailer": "^4.6.8",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
@@ -18,5 +17,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.0.1"
   }
 }

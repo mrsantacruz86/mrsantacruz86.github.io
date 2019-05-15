@@ -3,7 +3,7 @@ import './Content.css';
 import Home from '../../Pages/Home'
 import Portfolio from '../../Pages/Portfolio'
 
-class App extends Component {
+class Content extends Component {
   render() {
     return (
       <div className="Content">
@@ -14,4 +14,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default Content;
