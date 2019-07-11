@@ -32,21 +32,11 @@
     },
     {
       "type": "Unit Testing",
-      "tech": [
-        "Mocha",
-        "Jasmine",
-        "Chai"
-      ]
+      "tech": ["Mocha", "Jasmine", "Chai"]
     },
     {
       "type": "Database",
-      "tech": [
-        "Firebase",
-        "MySQL",
-        "MongoDB",
-        "Sequelize",
-        "Mongoose"
-      ]
+      "tech": ["Firebase", "MySQL", "MongoDB", "Sequelize", "Mongoose"]
     },
     {
       "type": "Tools",
@@ -67,19 +57,11 @@
     },
     {
       "type": "Database",
-      "tech": [
-        "Firebase",
-        "MySQL",
-        "MongoDB",
-        "Sequelize",
-        "Mongoose"
-      ]
+      "tech": ["Firebase", "MySQL", "MongoDB", "Sequelize", "Mongoose"]
     },
     {
       "type": "Languages",
-      "tech": [
-        "Javascript", "Java"
-      ]
+      "tech": ["Javascript", "Java"]
     },
     {
       "type": "Other Technologies",
@@ -96,9 +78,27 @@
       ]
     }
   ],
-  "experience":[
+  "experience": [
     {
-      
+      "title": "Software Developer",
+      "company": "HIS HOUSE CHILDREN'S HOME",
+      "start": "May 2017",
+      "end": "Present",
+      "description": "Created web app that keeps audits records and generates reports. The app was a secured API using JWT and the UI is built with ReactJS. The app has helped the company to reduce paperwork and boost efficiency."
+    },
+    {
+      "title": "Quality Improvement Assistant",
+      "company": "HIS HOUSE CHILDREN'S HOME",
+      "start": "October 2010",
+      "end": "April 2017",
+      "description": "Create an MS Access database to keep records of the minors we serve and generate statistic reports. Earned 2017 Employee of the Year Award as a result."
+    },
+    {
+      "title": "IT Technician",
+      "company": "AGRARIAN UNIVERSITY OF HAVANA",
+      "start": "August 2006",
+      "end": "May 2009",
+      "description": "Performed PC and Server maintenance and repair.  Network and printer’s setup. Deployed Linux servers to host websites and store data. Participated in the development of a static website for one of the university’s extension center."
     }
   ]
 }

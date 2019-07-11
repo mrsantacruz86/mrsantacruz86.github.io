@@ -1,14 +1,13 @@
 import React, { Component } from 'react';
-import PortfolioCollection from "../../Components/PorfolioCollection";
-import './Portfolio.css';
-import projects from "../../projects.json";
+import PortfolioCollection from '../PortfolioCollection';
+import projects from '../../projects.json';
 
 class Portfolio extends Component {
   constructor(props) {
     super(props);
     this.state = {
       projects: projects
-    }
+    };
   }
 
   render() {

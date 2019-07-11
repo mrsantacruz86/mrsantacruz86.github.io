@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  /* background-color: #EDEDDA; */
+}
+a {
+  /* color: #07313B; */
+}
+
+a:hover {
+  color: #1386a1;
+}
+
+.active {
+  background-color: #0a4654;
+  /* color: #333; */
+}
+
+.icon-bar {
+  background-color: #0c5161;
+  width: 100%;
+  overflow: auto;
+  color: white;
+}
+.icon-bar a {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding: 12px 0;
+  transition: all 0.3s ease;
+  color: white;
+  /* font-size: 36px; */
+}
+
+.icon-bar a:hover {
+  background-color: #1386a1;
+  /* color: #0C5161; */
+}
+.portfolio-item .card {
+  /* height: 8rem; */
+  background: none;
+  border-color: #07313b;
+  margin-top: 1rem;
+  /* margin-left: 1rem; */
+  /* margin-right: 1rem; */
+  margin-bottom: 1rem;
+}
+.personal-info {
+  margin-top: 5rem;
+  background: none;
+  color: #07313b;
+  text-align: center;
+}
+.profile-picture {
+  /* margin-top: 1rem; */
+  margin-bottom: 1rem;
+  /* box-shadow: 1px 1px 6px 4px darkgrey; */
+  max-width: 90%;
+}
+
+.page-content > h2 {
+  margin-top: 3rem;
+}

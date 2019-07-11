@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import './MediaLink.css';
-
 
 class MediaLink extends Component {
   render() {
@@ -9,7 +7,7 @@ class MediaLink extends Component {
       <div className="media-link" key={network.id}>
         <div>
           <a href={network.link} target="_blank">
-            <i className={`fab fa-${network.icon} fa-${this.props.size}`}></i>
+            <i className={`fab fa-${network.icon} fa-${this.props.size}`} />
           </a>
         </div>
       </div>
