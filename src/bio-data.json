@@ -2,14 +2,18 @@
   "bio": "Im a Full Stack Web Developer specialized in Javascript with a Math and Physics background, passionate for back-end web development I specialized in NodeJS. I think technology exists to make human work easier so I'm alwasy trying to expand my knowledge so I can make a proper use of Technology to solve real life problems and to make my work and the work of my team a bit easier.",
   "skills": [
     {
+      "name": "HTML5",
       "type": "Front-end",
+      "icon": "../vectors/html-5-100.svg",
+      "score": "100%"
+    },
+    {
       "tech": [
         "HTML5",
         "CSS3",
         "Javascript",
         "React",
         "Redux",
-        "JSX",
         "JQuery",
         "Bootstrap",
         "Handlebars",
@@ -100,5 +104,6 @@
       "end": "May 2009",
       "description": "Performed PC and Server maintenance and repair.  Network and printer’s setup. Deployed Linux servers to host websites and store data. Participated in the development of a static website for one of the university’s extension center."
     }
-  ]
+  ],
+  "education": []
 }
