@@ -4,82 +4,146 @@
     {
       "name": "HTML5",
       "type": "Front-end",
-      "icon": "../vectors/html-5-100.svg",
+      "icon": "assets/vectors/html5.svg",
       "score": "100%"
     },
     {
-      "tech": [
-        "HTML5",
-        "CSS3",
-        "Javascript",
-        "React",
-        "Redux",
-        "JQuery",
-        "Bootstrap",
-        "Handlebars",
-        "RESTful APIs",
-        "AJAX"
-      ]
+      "name": "CSS3",
+      "type": "Front-end",
+      "icon": "assets/vectors/css3.svg",
+      "score": "100%"
     },
     {
+      "name": "Git",
+      "type": "Front-end",
+      "icon": ".assets/vectors/git.svg",
+      "score": "100%"
+    },
+    {
+      "name": "Github",
+      "type": "SVC",
+      "icon": "assets/vectors/github.svg",
+      "score": "100%"
+    },
+    {
+      "name": "Gitlab",
+      "type": "SVC",
+      "icon": "assets/vectors/gitlab.svg",
+      "score": "90%"
+    },
+    {
+      "name": "Heroku",
+      "type": "Deployment",
+      "icon": "assets/vectors/heroku.svg",
+      "score": "100%"
+    },
+    {
+      "name": "Java",
+      "type": "SVC",
+      "icon": "assets/vectors/java.svg",
+      "score": "50%"
+    },
+    {
+      "name": "Javascript",
+      "type": "Language",
+      "icon": "assets/vectors/javascript.svg",
+      "score": "100%"
+    },
+    {
+      "name": "JQuery",
+      "type": "Front-end",
+      "icon": "assets/vectors/jquery.svg",
+      "score": "95%"
+    },
+    {
+      "name": "MongoDB",
+      "type": "Databases",
+      "icon": "assets/vectors/mongodb.svg",
+      "score": "100%"
+    },
+    {
+      "name": "NodeJS",
       "type": "Back-end",
-      "tech": [
-        "Node JS",
-        "Express",
-        "RESTful APIs",
-        "JSON",
-        "Axios",
-        "Request",
-        "MVC Architecture",
-        "ES6"
-      ]
+      "icon": "assets/vectors/nodejs.svg",
+      "score": "100%"
     },
     {
-      "type": "Unit Testing",
-      "tech": ["Mocha", "Jasmine", "Chai"]
+      "name": "NPM",
+      "type": "Package Manager",
+      "icon": "assets/vectors/npm.svg",
+      "score": "90%"
     },
     {
+      "name": "Python",
+      "type": "Language",
+      "icon": "assets/vectors/python.svg",
+      "score": "40%"
+    },
+    {
+      "name": "React Native",
+      "type": "Language",
+      "icon": "assets/vectors/react-native.svg",
+      "score": "30%"
+    },
+    {
+      "name": "ReactJs",
+      "type": "Language",
+      "icon": "assets/vectors/reactjs.svg",
+      "score": "100%"
+    },
+    {
+      "name": "Bootstrap",
+      "type": "Front-end",
+      "icon": "assets/vectors/bootstrap.svg",
+      "score": "100%"
+    },
+    {
+      "name": "Mocha",
+      "type": "Testing",
+      "icon": "assets/vectors/mocha.svg",
+      "score": "70%"
+    },
+    {
+      "name": "Jest",
+      "type": "Testing",
+      "icon": "assets/vectors/jest.svg",
+      "score": "80%"
+    },
+    {
+      "name": "Redux",
+      "type": "Front-end",
+      "icon": "assets/vectors/redux.svg",
+      "score": "100%"
+    },
+    {
+      "name": "ExpressJS",
+      "type": "Server",
+      "icon": "assets/vectors/expressjs.svg",
+      "score": "100%"
+    },
+    {
+      "name": "MySQL",
       "type": "Database",
-      "tech": ["Firebase", "MySQL", "MongoDB", "Sequelize", "Mongoose"]
+      "icon": "assets/vectors/mysql.svg",
+      "score": "100%"
     },
     {
-      "type": "Tools",
-      "tech": [
-        "Bash Shell",
-        "Linux",
-        "Git /GitHub",
-        "GitHub Projects",
-        "Heroku",
-        "MySQL Workbench",
-        "VS Code",
-        "Sublime",
-        "GitKraken",
-        "Sourcetree",
-        "Adobe XD",
-        "Sketch"
-      ]
-    },
-    {
+      "name": "Firebase",
       "type": "Database",
-      "tech": ["Firebase", "MySQL", "MongoDB", "Sequelize", "Mongoose"]
+      "icon": "assets/vectors/firebase.svg",
+      "score": "100%"
     },
     {
-      "type": "Languages",
-      "tech": ["Javascript", "Java"]
+      "name": "JWT",
+      "type": "Authentication",
+      "icon": "assets/vectors/jwt.svg",
+      "score": "100%"
     },
     {
-      "type": "Other Technologies",
-      "tech": [
-        "Spring MVC",
-        "Servlet",
-        "JSP",
-        "JSTL",
-        "JDBC",
-        "Design Patterns",
-        "C#",
-        "C/C++",
-        "VB"
-      ]
+      "name": "Webpack",
+      "type": "Bundlers",
+      "icon": "assets/vectors/expressjs.svg",
+      "score": "70%"
     }
   ],
   "experience": [

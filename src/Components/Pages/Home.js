@@ -10,7 +10,7 @@ const Home = props => {
       <h1>ABOUT ME</h1>
       <hr />
       <p>{data.bio}</p>
-      <SkillList />
+      <SkillList skills={data.skills} />
     </div>
   );
 };
