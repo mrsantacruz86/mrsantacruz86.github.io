@@ -1,10 +1,9 @@
 import React from 'react';
-import { className } from 'postcss-selector-parser';
 
-const Skill = props => {
+const renderSkill = (image, index) => {
   return (
-    <div>
-      <img src={props.icon} className="responsive-image" />
+    <div key={index} className="float-left square-medium bg-gradient-danger text-center">
+      <img src={image.icon} className="img-fluid vector align-middle" />
     </div>
   );
 };
@@ -12,11 +11,12 @@ const Skill = props => {
 const SkillList = ({ skills }) => {
   return (
     <div>
-      <div>Skill List</div>
-      <div>{JSON.stringify(skills[0])}</div>
-      {skills.map(skill => {
-        // <Skill icon={skill.icon} />;
-      })}
+      <h2>TECHNICAL SKILLS</h2>
+      <div className="thumbnail-list">
+        {skills.map((skill, index) => {
+          return renderSkill(skill, index);
+        })}
+      </div>
     </div>
   );
 };

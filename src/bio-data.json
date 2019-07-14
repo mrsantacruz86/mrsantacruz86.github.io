@@ -16,7 +16,7 @@
     {
       "name": "Git",
       "type": "Front-end",
-      "icon": ".assets/vectors/git.svg",
+      "icon": "assets/vectors/git.svg",
       "score": "100%"
     },
     {
@@ -64,7 +64,7 @@
     {
       "name": "NodeJS",
       "type": "Back-end",
-      "icon": "assets/vectors/nodejs.svg",
+      "icon": "assets/vectors/nodejs-1.svg",
       "score": "100%"
     },
     {
@@ -131,7 +131,7 @@
       "name": "Firebase",
       "type": "Database",
       "icon": "assets/vectors/firebase.svg",
-      "score": "100%"
+      "score": "80%"
     },
     {
       "name": "JWT",
@@ -142,8 +142,14 @@
     {
       "name": "Webpack",
       "type": "Bundlers",
-      "icon": "assets/vectors/expressjs.svg",
+      "icon": "assets/vectors/webpack.svg",
       "score": "70%"
+    },
+    {
+      "name": "Linux",
+      "type": "CLI",
+      "icon": "assets/vectors/linux.svg",
+      "score": "90%"
     }
   ],
   "experience": [

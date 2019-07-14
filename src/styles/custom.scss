@@ -55,10 +55,26 @@ a:hover {
 .profile-picture {
   /* margin-top: 1rem; */
   margin-bottom: 1rem;
-  /* box-shadow: 1px 1px 6px 4px darkgrey; */
+  // box-shadow: 1px 1px 6px 4px darkgrey;
   max-width: 90%;
 }
 
 .page-content > h2 {
   margin-top: 3rem;
+}
+
+// Skill squares styles
+.thumbnail-list {
+}
+.square-medium {
+  width: 25%;
+  height: 8rem;
+  // background-color: #07313b;
+}
+.vector {
+  display: inline-block;
+  max-width: 6rem;
+  max-height: 6rem;
+  padding: 0.5rem;
+  margin: 0 auto;
 }

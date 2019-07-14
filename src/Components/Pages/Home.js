@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import SkillList from '../SkillList';
 import about from '../../bio-data.json';
 
 const Home = props => {
@@ -10,7 +9,6 @@ const Home = props => {
       <h1>ABOUT ME</h1>
       <hr />
       <p>{data.bio}</p>
-      <SkillList skills={data.skills} />
     </div>
   );
 };
