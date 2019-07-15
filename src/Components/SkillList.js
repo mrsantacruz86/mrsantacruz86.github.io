@@ -5,6 +5,7 @@ const Skill = ({ image, skillId }) => {
     <div id={skillId} className="square-medium img-fluid">
       <img src={image.icon} className="vector p-4" />
     </div>
+    // </div>
   );
 };
 
