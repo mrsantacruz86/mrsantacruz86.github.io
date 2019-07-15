@@ -37,21 +37,21 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1600"
-     inkscape:window-height="877"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
      id="namedview13"
      showgrid="false"
      inkscape:document-units="pt"
      inkscape:zoom="2.2125"
-     inkscape:cx="53.333333"
+     inkscape:cx="-20.112995"
      inkscape:cy="53.333333"
-     inkscape:window-x="-8"
-     inkscape:window-y="90"
+     inkscape:window-x="1592"
+     inkscape:window-y="-8"
      inkscape:window-maximized="1"
      inkscape:current-layer="svg11" />
   <g
      id="surface176945"
-     transform="matrix(1.263106,0,0,1.263106,-0.52424,-0.52424)">
+     transform="matrix(1.263106,0,0,1.2631059,-0.52424,-0.52423378)">
     <path
        style="fill:#0075bd;fill-opacity:1;fill-rule:nonzero;stroke:none"
        d="M 68.332031,8.332031 H 11.667969 L 16.667969,65 40,71.667969 63.332031,65 Z m 0,0"
