@@ -2,10 +2,9 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  /* background-color: #EDEDDA; */
 }
 a {
-  /* color: #07313B; */
+  color: #07313b;
 }
 
 a:hover {
@@ -30,20 +29,16 @@ a:hover {
   padding: 12px 0;
   transition: all 0.3s ease;
   color: white;
-  /* font-size: 36px; */
 }
 
 .icon-bar a:hover {
   background-color: #1386a1;
-  /* color: #0C5161; */
+  color: #0c5161;
 }
 .portfolio-item .card {
-  /* height: 8rem; */
   background: none;
   border-color: #07313b;
   margin-top: 1rem;
-  /* margin-left: 1rem; */
-  /* margin-right: 1rem; */
   margin-bottom: 1rem;
 }
 .personal-info {
@@ -53,14 +48,9 @@ a:hover {
   text-align: center;
 }
 .profile-picture {
-  /* margin-top: 1rem; */
   margin-bottom: 1rem;
   // box-shadow: 1px 1px 6px 4px darkgrey;
   max-width: 90%;
-}
-
-.page-content > h2 {
-  margin-top: 3rem;
 }
 
 // Skill squares styles
@@ -68,13 +58,12 @@ a:hover {
 }
 .square-medium {
   width: 25%;
-  height: 8rem;
-  // background-color: #07313b;
+  min-height: 6rem;
 }
 .vector {
   display: inline-block;
   max-width: 6rem;
   max-height: 6rem;
   padding: 0.5rem;
-  margin: 0 auto;
+  margin: auto;
 }
