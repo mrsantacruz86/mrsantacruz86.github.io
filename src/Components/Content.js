@@ -1,15 +1,15 @@
-import React, { Component } from 'react';
-import Home from './Pages/Home';
+import React, { Component } from "react";
+import Home from "./Pages/Home";
 // import Portfolio from './Pages/Portfolio';
-import SkillList from '../Components/SkillList';
-import data from '../bio-data.json';
+import SkillList from "../Components/SkillList";
+import data from "../bio-data.json";
 
-import Resume from './Pages/Resume';
+import Resume from "./Pages/Resume";
 
 class Content extends Component {
   render() {
     return (
-      <div className="Content">
+      <div className="content">
         <Home />
         {/* <Portfolio /> */}
         <Resume />

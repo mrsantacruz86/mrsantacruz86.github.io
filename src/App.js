@@ -1,7 +1,7 @@
-import React, { Component } from 'react';
-import Navbar from './Components/Navbar';
-import Content from './Components/Content';
-import SideSection from './Components/SideSection';
+import React, { Component } from "react";
+import Navbar from "./Components/Navbar";
+import Content from "./Components/Content";
+import SideSection from "./Components/SideSection";
 
 class App extends Component {
   render() {
@@ -9,15 +9,13 @@ class App extends Component {
       <div className="App">
         <Navbar />
         <div className="container">
-          <div className="row">
-            <aside className="col-md-4">
-              <SideSection />
-            </aside>
+          <section>
+            <SideSection />
+          </section>
 
-            <section className="col-md-8">
-              <Content />
-            </section>
-          </div>
+          <section>
+            <Content />
+          </section>
         </div>
       </div>
     );
