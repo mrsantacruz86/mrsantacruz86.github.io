@@ -52,17 +52,29 @@ a:hover {
   max-width: 90%;
 }
 
-// Skill squares styles
+// Skill Tiles styles
 .thumbnail-list {
-  margin: 0 auto !important;
   text-align: center;
 }
 .square-medium {
   display: inline-block;
-
 }
 .vector {
   box-sizing: content-box;
-  max-width: 6rem;
- background-image: linear-gradient(-45deg, #ccc, #eee);
+  width: 6rem;
+  background-image: linear-gradient(-45deg, #ccc, #eee);
+}
+.skill-label-card {
+  display: inline-block;
+  background-image: linear-gradient(-45deg, #ccc, #eee);
+}
+.skill-label {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: content-box;
+  width: 6rem;
+  height: 6rem;
+  // background-image: linear-gradient(-45deg, #ccc, #eee);
+}
+.skill-title {
 }

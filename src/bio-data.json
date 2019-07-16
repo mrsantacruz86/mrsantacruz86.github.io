@@ -2,154 +2,179 @@
   "bio": "Im a Full Stack Web Developer specialized in Javascript with a Math and Physics background, passionate for back-end web development I specialized in NodeJS. I think technology exists to make human work easier so I'm alwasy trying to expand my knowledge so I can make a proper use of Technology to solve real life problems and to make my work and the work of my team a bit easier.",
   "skills": [
     {
-      "name": "HTML5",
-      "type": "Front-end",
-      "icon": "assets/vectors/html5.svg",
-      "score": "100%"
-    },
-    {
-      "name": "CSS3",
-      "type": "Front-end",
-      "icon": "assets/vectors/css3.svg",
-      "score": "100%"
-    },
-    {
-      "name": "Git",
-      "type": "Front-end",
-      "icon": "assets/vectors/git.svg",
-      "score": "100%"
-    },
-    {
-      "name": "Github",
-      "type": "SVC",
-      "icon": "assets/vectors/github.svg",
-      "score": "100%"
-    },
-    {
-      "name": "Gitlab",
-      "type": "SVC",
-      "icon": "assets/vectors/gitlab.svg",
-      "score": "90%"
-    },
-    {
-      "name": "Heroku",
-      "type": "Deployment",
-      "icon": "assets/vectors/heroku.svg",
-      "score": "100%"
-    },
-    {
-      "name": "Java",
-      "type": "SVC",
-      "icon": "assets/vectors/java.svg",
-      "score": "50%"
-    },
-    {
       "name": "Javascript",
       "type": "Language",
       "icon": "assets/vectors/javascript.svg",
-      "score": "100%"
-    },
-    {
-      "name": "JQuery",
-      "type": "Front-end",
-      "icon": "assets/vectors/jquery.svg",
-      "score": "95%"
-    },
-    {
-      "name": "MongoDB",
-      "type": "Databases",
-      "icon": "assets/vectors/mongodb.svg",
-      "score": "100%"
+      "show": true,
+      "score": 95
     },
     {
       "name": "NodeJS",
       "type": "Back-end",
       "icon": "assets/vectors/nodejs-1.svg",
-      "score": "100%"
-    },
-    {
-      "name": "NPM",
-      "type": "Package Manager",
-      "icon": "assets/vectors/npm.svg",
-      "score": "90%"
-    },
-    {
-      "name": "Python",
-      "type": "Language",
-      "icon": "assets/vectors/python.svg",
-      "score": "40%"
-    },
-    {
-      "name": "React Native",
-      "type": "Language",
-      "icon": "assets/vectors/react-native.svg",
-      "score": "30%"
+      "show": true,
+      "score": 95
     },
     {
       "name": "ReactJs",
       "type": "Language",
       "icon": "assets/vectors/reactjs.svg",
-      "score": "100%"
+      "show": true,
+      "score": 100
     },
     {
-      "name": "Bootstrap",
-      "type": "Front-end",
-      "icon": "assets/vectors/bootstrap.svg",
-      "score": "100%"
-    },
-    {
-      "name": "Mocha",
-      "type": "Testing",
-      "icon": "assets/vectors/mocha.svg",
-      "score": "70%"
-    },
-    {
-      "name": "Jest",
-      "type": "Testing",
-      "icon": "assets/vectors/jest.svg",
-      "score": "80%"
+      "name": "React Native",
+      "type": "Language",
+      "icon": "assets/vectors/react-native.svg",
+      "show": false,
+      "score": 30
     },
     {
       "name": "Redux",
       "type": "Front-end",
       "icon": "assets/vectors/redux.svg",
-      "score": "100%"
+      "show": true,
+      "score": 100
     },
     {
-      "name": "ExpressJS",
-      "type": "Server",
-      "icon": "assets/vectors/expressjs.svg",
-      "score": "100%"
+      "name": "HTML5",
+      "type": "Front-end",
+      "icon": "assets/vectors/html5.svg",
+      "show": true,
+      "score": 100
+    },
+    {
+      "name": "CSS3",
+      "type": "Front-end",
+      "icon": "assets/vectors/css3.svg",
+      "show": true,
+      "score": 100
+    },
+    {
+      "name": "Bootstrap",
+      "type": "Front-end",
+      "icon": "assets/vectors/bootstrap.svg",
+      "show": true,
+      "score": 100
+    },
+    {
+      "name": "Git",
+      "type": "Front-end",
+      "icon": "assets/vectors/git.svg",
+      "show": true,
+      "score": 100
+    },
+    {
+      "name": "JQuery",
+      "type": "Front-end",
+      "icon": "assets/vectors/jquery.svg",
+      "show": false,
+      "score": 90
+    },
+    {
+      "name": "MongoDB",
+      "type": "Databases",
+      "icon": "assets/vectors/mongodb.svg",
+      "show": true,
+      "score": 90
     },
     {
       "name": "MySQL",
       "type": "Database",
       "icon": "assets/vectors/mysql.svg",
-      "score": "100%"
+      "show": true,
+      "score": 100
     },
     {
       "name": "Firebase",
       "type": "Database",
       "icon": "assets/vectors/firebase.svg",
-      "score": "80%"
+      "show": true,
+      "score": 80
     },
     {
       "name": "JWT",
       "type": "Authentication",
       "icon": "assets/vectors/jwt.svg",
-      "score": "100%"
+      "show": true,
+      "score": 100
+    },
+    {
+      "name": "ExpressJS",
+      "type": "Server",
+      "icon": "assets/vectors/expressjs.svg",
+      "show": true,
+      "score": 100
     },
     {
       "name": "Webpack",
       "type": "Bundlers",
       "icon": "assets/vectors/webpack.svg",
-      "score": "70%"
+      "show": true,
+      "score": 60
+    },
+    {
+      "name": "Heroku",
+      "type": "Deployment",
+      "icon": "assets/vectors/heroku.svg",
+      "show": true,
+      "score": 100
     },
     {
       "name": "Linux",
       "type": "CLI",
       "icon": "assets/vectors/linux.svg",
-      "score": "90%"
+      "show": true,
+      "score": 90
+    },
+    {
+      "name": "Java",
+      "type": "Language",
+      "icon": "assets/vectors/java.svg",
+      "show": true,
+      "score": 40
+    },
+    {
+      "name": "Python",
+      "type": "Language",
+      "icon": "assets/vectors/python.svg",
+      "show": true,
+      "score": 40
+    },
+    {
+      "name": "Mocha",
+      "type": "Testing",
+      "icon": "assets/vectors/mocha.svg",
+      "show": false,
+      "score": 60
+    },
+    {
+      "name": "Jest",
+      "type": "Testing",
+      "icon": "assets/vectors/jest.svg",
+      "show": true,
+      "score": 80
+    },
+    {
+      "name": "NPM",
+      "type": "Package Manager",
+      "icon": "assets/vectors/npm.svg",
+      "show": false,
+      "score": 90
+    },
+    {
+      "name": "Github",
+      "type": "SVC",
+      "icon": "assets/vectors/github.svg",
+      "show": false,
+      "score": 100
+    },
+    {
+      "name": "Gitlab",
+      "type": "SVC",
+      "icon": "assets/vectors/gitlab.svg",
+      "show": false,
+      "score": 90
     }
   ],
   "experience": [
