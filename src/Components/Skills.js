@@ -30,7 +30,7 @@ const Skill = ({ image, skillId, onClickSkill, active }) => {
   );
 };
 
-const SkillList = ({ skills }) => {
+const Skills = ({ skills }) => {
   const [active, setActive] = useState(null);
 
   const onClickSkill = id => {
@@ -41,11 +41,10 @@ const SkillList = ({ skills }) => {
       return setActive(null);
     }
   };
-  // const onBlurSkill = id => setActive(null);
 
   return (
     <div>
-      <h2>TECHNICAL SKILLS</h2>
+      <h2 id="tech">Technologies</h2>
       <div>
         <div className="thumbnail-list">
           {skills.map((skill, index) => (
@@ -63,4 +62,4 @@ const SkillList = ({ skills }) => {
   );
 };
 
-export default SkillList;
+export default Skills;

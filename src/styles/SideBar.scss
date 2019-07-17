@@ -1,0 +1,63 @@
+/*----------------------------------------
+Navigation Styles
+----------------------------------------*/
+// Navigation button
+.burgerBtn {
+  display: inline-block;
+  cursor: pointer;
+  background-color: transparent;
+  color: grey;
+  padding: 1rem 2rem;
+  position: fixed;
+  z-index: 1000;
+}
+
+.burgerBtn:hover > div {
+  background-color: black;
+}
+.btnBar1,
+.btnBar2,
+.btnBar3 {
+  width: 2rem;
+  height: 0.25rem;
+  background-color: #888;
+  margin: 0.5rem 0;
+  transition: 0.4s;
+}
+.change .btnBar1 {
+  transform: translateY(0.75rem) rotate(-45deg);
+}
+.change .btnBar2 {
+  opacity: 0;
+}
+.change .btnBar3 {
+  transform: translateY(-0.75rem) rotate(45deg);
+}
+
+.sidebar {
+  min-height: 100%; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #111111; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 4rem; /* Place content 60px from the top */
+  transition: 0.5s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+.sidebar-open {
+  width: 16rem;
+}
+.sidebar a {
+  padding: 1rem;
+  text-decoration: none;
+  font-size: 1.5rem;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
