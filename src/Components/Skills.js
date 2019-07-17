@@ -1,10 +1,14 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const Skill = ({ image, skillId, onClickSkill, active }) => {
   return (
-    <div id={skillId} onClick={onClickSkill} className="square-medium img-fluid">
+    <div
+      id={skillId}
+      onClick={onClickSkill}
+      className="square-medium img-fluid"
+    >
       {!active ? (
-        <img src={image.icon} className="vector p-4" />
+        <img src={image.icon} className="vector p-4" alt={image.name} />
       ) : (
         <div className="skill-label-card p-4">
           <div className="skill-label">
@@ -12,9 +16,9 @@ const Skill = ({ image, skillId, onClickSkill, active }) => {
               <h5>{image.name}</h5>
               <h6>{image.type}</h6>
               {/* <h6>{image.score}%</h6> */}
-              <div class="progress" style={{ height: '1rem' }}>
+              <div className="progress" style={{ height: "1rem" }}>
                 <div
-                  class="progress-bar"
+                  className="progress-bar"
                   style={{ width: `${image.score}%` }}
                   aria-valuemin={0}
                   aria-valuemax={100}

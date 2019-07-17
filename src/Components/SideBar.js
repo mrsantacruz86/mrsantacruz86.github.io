@@ -1,7 +1,8 @@
-import React, { Component } from 'react';
+import React from "react";
 
 const NavLink = props => {
-  let activeAttr = window.location.pathname === props.route ? 'active' : 'inactive';
+  let activeAttr =
+    window.location.pathname === props.route ? "active" : "inactive";
   return (
     <a className={activeAttr} href={props.route}>
       {props.children}

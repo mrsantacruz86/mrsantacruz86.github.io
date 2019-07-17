@@ -200,5 +200,35 @@
       "description": "Performed PC and Server maintenance and repair.  Network and printer’s setup. Deployed Linux servers to host websites and store data. Participated in the development of a static website for one of the university’s extension center."
     }
   ],
-  "education": []
+  "education": [],
+  "networks": [
+    {
+      "id": 1,
+      "name": "Email",
+      "faIcon": "far fa-envelope",
+      "link": "mailto:abnerdc86@gmail.com",
+      "show": true
+    },
+    {
+      "id": 2,
+      "name": "GitHub",
+      "faIcon": "fab fa-github",
+      "link": "https://github.com/mrsantacruz86",
+      "show": true
+    },
+    {
+      "id": 3,
+      "name": "Linked In",
+      "faIcon": "fab fa-linkedin-in",
+      "link": "https://www.linkedin.com/in/nelson-diaz-a33073154/",
+      "show": true
+    },
+    {
+      "id": 4,
+      "name": "Stack Overflow",
+      "faIcon": "fab fa-stack-overflow",
+      "link": "https://stackoverflow.com/users/6732042/mrsantacruz86?tab=profile",
+      "show": false
+    }
+  ]
 }
