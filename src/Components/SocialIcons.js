@@ -3,7 +3,6 @@ import PropTypes from "prop-types";
 import Spinner from "./Spinner";
 
 const SocialIcon = props => {
-  console.log(props.network);
   return (
     <div>
       <a href={props.network.link} target="_blank" rel="noopener noreferrer">
@@ -14,7 +13,6 @@ const SocialIcon = props => {
 };
 
 const SocialIcons = ({ networks }) => {
-  // console.log(networks);
   if (!networks) {
     return <Spinner />;
   }
