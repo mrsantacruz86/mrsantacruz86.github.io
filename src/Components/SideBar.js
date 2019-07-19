@@ -1,21 +1,12 @@
 import React, { useState } from "react";
+import BurgerBtn from "./BurgerBtn";
 
 const NavLink = ({ route, children }) => {
   return <a href={route}>{children}</a>;
 };
 
-const BurgerBtn = props => {
-  return (
-    <div className="burgerBtn" onClick={props.onClick}>
-      <div className="btnBar1" />
-      <div className="btnBar2" />
-      <div className="btnBar3" />
-    </div>
-  );
-};
-
 const SideBar = props => {
-  const [menu, setMenu] = useState("");
+  const [menu, setMenu] = useState(false);
   const onMenuBtnClick = () => {
     console.log("clicked");
     return setMenu(!menu);
@@ -43,7 +34,12 @@ const SideBar = props => {
           <i className="fas fa-phone" /> Contact Me
         </NavLink>
       </nav>
-      <BurgerBtn onClick={onMenuBtnClick} />
+      <BurgerBtn
+        onClick={onMenuBtnClick}
+        color="#888"
+        changed={menu}
+        size="4rem"
+      />
     </div>
   );
 };
