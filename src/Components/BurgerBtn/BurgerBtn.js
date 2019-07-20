@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
-import "./BurgerBtn.css";
+import React from 'react';
+import PropTypes from 'prop-types';
+import './BurgerBtn.css';
 
 const BurgerBtn = props => {
-  const changed = !props.changed ? "" : " change";
+  const changed = !props.changed ? '' : ' change';
   return (
     <div onClick={props.onClick}>
       <svg
@@ -11,19 +11,19 @@ const BurgerBtn = props => {
         version="1.1"
         viewBox="0 0 100 100"
         xmlns="http://www.w3.org/2000/svg"
-        width={props.size || "100px"}
-        height={props.size || "100px"}
+        width={props.size || '100px'}
+        height={props.size || '100px'}
       >
         <svg version="1.1">
           <g
             fill="none"
-            stroke={props.color || "#000"}
-            stroke-linecap={props.linecap || "flat"}
+            stroke={props.color || '#000'}
+            stroke-linecap={props.linecap || 'flat'}
             stroke-width="15"
           >
-            <path className={"btnBar1" + changed} d="M10 20h80" />
-            <path className={"btnBar2" + changed} d="M10 50h80" />
-            <path className={"btnBar3" + changed} d="M10 80h80" />
+            <path className={'btnBar1' + changed} d="M10 20h80" />
+            <path className={'btnBar2' + changed} d="M10 50h80" />
+            <path className={'btnBar3' + changed} d="M10 80h80" />
           </g>
         </svg>
       </svg>
