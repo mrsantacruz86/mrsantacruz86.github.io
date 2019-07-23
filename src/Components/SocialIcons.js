@@ -2,13 +2,11 @@ import React from "react";
 import PropTypes from "prop-types";
 import Spinner from "./Spinner";
 
-const SocialIcon = props => {
+const SocialIcon = ({ network }) => {
   return (
-    <div>
-      <a href={props.network.link} target="_blank" rel="noopener noreferrer">
-        <i className={`${props.network.faIcon} fa-3x`} />
-      </a>
-    </div>
+    <a href={network.link} target="_blank" rel="noopener noreferrer">
+      <i className={`${network.faIcon} fa-2x`} />
+    </a>
   );
 };
 

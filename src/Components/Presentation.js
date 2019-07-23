@@ -1,29 +1,14 @@
 import React from "react";
-import SocialIcons from "./SocialIcons";
 
-const Presentation = props => {
+const Presentation = () => {
   return (
-    <div className="card personal-info border-0">
-      <div className="card-body">
-        <img
-          src="assets/images/profile-picture-480x480-web.png"
-          alt="Profile"
-          className="rounded-circle img-responsive profile-picture"
-        />
-        <h1>Nelson Diaz</h1>
-        <hr />
-        <p className="font-italic">
-          "Web Engineer with versatile experience in Front and Back-end
-          Technologies, committed to integrate functionality and beauty as
-          essential parts of my work."
+    <div className="jumbotron jumbotron-fluid ">
+      <div className="jumbotron-content text-center">
+        <h1 className="display-1">Nelson Diaz</h1>
+        <p className="lead">
+          This is a simple hero unit, a simple jumbotron-style component for
+          calling extra attention to featured content or information.
         </p>
-
-        <hr />
-
-        <div className="justify-content-md-center">
-          <SocialIcons networks={props.networks} />
-        </div>
-        <hr />
       </div>
     </div>
   );

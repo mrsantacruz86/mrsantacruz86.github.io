@@ -1,8 +1,7 @@
 import React, { Component } from "react";
 import SideBar from "./Components/SideBar";
 import Presentation from "./Components/Presentation";
-
-import Home from "./Components/AboutMe";
+import AboutMe from "./Components/AboutMe";
 // import Portfolio from "./Components/Portfolio";
 import Skills from "./Components/Skills";
 import Experience from "./Components/Experience";
@@ -20,21 +19,19 @@ class App extends Component {
     // console.log(data.experience);
     return (
       <div className="App">
-        <SideBar />
-        <div className="container">
-          <section>
-            <Presentation {...this.state} />
-          </section>
+        <section>
+          <SideBar />
+        </section>
 
-          <section>
-            <div className="content">
-              <Home bio={this.state.bio} />
-              {/* <Portfolio /> */}
-              <Experience experience={this.state.experience} />
-              <Skills skills={this.state.skills} />
-            </div>
-          </section>
-        </div>
+        <section>
+          <div className="content">
+            {/* <Portfolio /> */}
+            <Presentation {...this.state} />
+            <Experience experience={this.state.experience} />
+            <AboutMe {...this.state} />
+            <Skills skills={this.state.skills} />
+          </div>
+        </section>
       </div>
     );
   }

@@ -7,34 +7,15 @@ a {
   color: #07313b;
 }
 
-a:hover {
-  color: #1386a1;
+.jumbotron{
+  min-height: 100vh;
+}
+.jumbotron-content{
+  display: inline-block;
+  align-self: center;
+  vertical-align: middle;
 }
 
-.active {
-  background-color: #0a4654;
-  /* color: #333; */
-}
-
-.icon-bar {
-  background-color: #0c5161;
-  width: 100%;
-  overflow: auto;
-  color: white;
-}
-.icon-bar a {
-  float: left;
-  width: 33.33%;
-  text-align: center;
-  padding: 12px 0;
-  transition: all 0.3s ease;
-  color: white;
-}
-
-.icon-bar a:hover {
-  background-color: #1386a1;
-  color: #0c5161;
-}
 .portfolio-item .card {
   background: none;
   border-color: #07313b;
@@ -43,9 +24,9 @@ a:hover {
 }
 .personal-info {
   margin-top: 5rem;
-  background: none;
-  color: #07313b;
-  text-align: center;
+  background: #07313b;
+  // color: #07313b;
+  // text-align: center;
 }
 .profile-picture {
   margin-bottom: 1rem;
