@@ -1,14 +1,14 @@
-import React from "react";
+import React from 'react';
 
 const Presentation = () => {
   return (
-    <div className="jumbotron jumbotron-fluid ">
-      <div className="jumbotron-content text-center">
-        <h1 className="display-1">Nelson Diaz</h1>
-        <p className="lead">
-          This is a simple hero unit, a simple jumbotron-style component for
-          calling extra attention to featured content or information.
-        </p>
+    // This type of presentation is called hero image
+    <div className="jumbotron jumbotron-fluid">
+      <div className="jumbotron-content">
+        <h1 className="display-1">
+          <strong>Nelson Diaz</strong>
+        </h1>
+        <h4 className="mt-3">I'm a Full Stack Web Engineer.</h4>
       </div>
     </div>
   );

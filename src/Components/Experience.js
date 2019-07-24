@@ -3,7 +3,7 @@ import React from 'react';
 const Experience = props => {
   const { experience } = props;
   return (
-    <div>
+    <div className="container">
       <h2 id="experience">Experience</h2>
       <div>
         {experience.map((job, index) => (
