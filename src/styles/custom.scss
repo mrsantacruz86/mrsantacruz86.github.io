@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   margin: 0;
   padding: 0;
@@ -27,27 +30,16 @@ a {
   transform: translate(-50%, -50%);
 }
 
-.portfolio-item .card {
-  background: none;
-  border-color: #07313b;
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-}
-.personal-info {
-  margin-top: 5rem;
-  background: #07313b;
-  // color: #07313b;
-  // text-align: center;
-}
-.profile-picture {
-  margin-bottom: 1rem;
-  max-width: 90%;
+.about-me {
+  position: relative;
+  // background-image: linear-gradient(to left, black, white );
+  background-repeat: no-repeat;
 }
 
-// Skill Tiles styles
-.thumbnail-list {
-  text-align: center;
+.profile-picture {
+
 }
+
 .square-medium {
   display: inline-block;
 }
