@@ -21,17 +21,22 @@ body {
   color: white;
 }
 
+// About me Styles.
 .about-me {
+  display: flex;
   position: relative;
-  // background-image: url('../images/profile-picture-no-bg.png');
-  background-repeat: no-repeat;
   min-height: 480px;
 }
-.about-me img {
-  // opacity: 0.5;
-}
-
 .profile-picture {
+  height: 480px;
+  opacity: 0.5;
+  // box-shadow: inset 0 0 0 20px rgba(0, 0, 0, 0.1);
+  background-image: linear-gradient(
+    rgba(0, 0, 0, 0.7) 0%,
+    rgba(0, 0, 0, 0) 95%
+  );
+}
+.about-me .block-content {
 }
 
 // Skills Styles

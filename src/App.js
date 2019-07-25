@@ -23,14 +23,12 @@ class App extends Component {
           <SideBar />
         </section>
 
-        <section>
-          <div className="content">
-            {/* <Portfolio /> */}
-            <Presentation {...this.state} />
-            <Experience experience={this.state.experience} />
-            <AboutMe {...this.state} />
-            <Skills skills={this.state.skills} />
-          </div>
+        <section className="content">
+          {/* <Portfolio /> */}
+          <Presentation {...this.state} />
+          <Experience experience={this.state.experience} />
+          <AboutMe {...this.state} />
+          <Skills skills={this.state.skills} />
         </section>
       </div>
     );
