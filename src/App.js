@@ -1,12 +1,12 @@
-import React, { Component } from "react";
-import SideBar from "./Components/SideBar";
-import Presentation from "./Components/Presentation";
-import AboutMe from "./Components/AboutMe";
+import React, { Component } from 'react';
+import SideBar from './Components/SideBar';
+import Presentation from './Components/Presentation';
+import AboutMe from './Components/AboutMe';
 // import Portfolio from "./Components/Portfolio";
-import Skills from "./Components/Skills";
-import Experience from "./Components/Experience";
+import Skills from './Components/Skills';
+import Experience from './Components/Experience';
 
-import data from "./bio-data.json";
+import data from './bio-data.json';
 
 class App extends Component {
   state = {
@@ -18,7 +18,7 @@ class App extends Component {
   render() {
     // console.log(data.experience);
     return (
-      <div className="App">
+      <div className="App bg-dark text-light">
         <section>
           <SideBar />
         </section>

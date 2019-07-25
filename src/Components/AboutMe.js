@@ -1,21 +1,11 @@
 import React from 'react';
 import SocialIcons from './SocialIcons';
-
-const profile = './assets/images/profile-picture-480x480-web.png';
+import profile from '../images/profile-picture-no-bg.png';
 
 const AboutMe = ({ bio, networks }) => {
   return (
-    <div
-      className="about-me my-5"
-      style={{
-        backgroundImage: `url(${profile}) linear-gradient(to left, black, white )`
-      }}
-    >
-      {/* <img
-        src="assets/images/profile-picture-480x480-web.png"
-        alt="Profile"
-        className="img-responsive profile-picture"
-      /> */}
+    <div className="about-me my-5">
+      <img src={profile} alt="Profile" className="img-responsive" />
       <div className="block-content">
         <h2 id="about">About Me</h2>
 

@@ -8,7 +8,7 @@ const Presentation = () => {
         <h1 className="display-1">
           <strong>Nelson Diaz</strong>
         </h1>
-        <h4 className="mt-3">I'm a Full Stack Web Engineer.</h4>
+        <h4 className="text-center mt-3">I'm a Full Stack Web Engineer.</h4>
       </div>
     </div>
   );
