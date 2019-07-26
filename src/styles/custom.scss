@@ -25,18 +25,19 @@ body {
 .about-me {
   display: flex;
   position: relative;
-  min-height: 480px;
+  align-content: center;
 }
 .profile-picture {
-  height: 480px;
+  // height: 480px;
   opacity: 0.5;
   // box-shadow: inset 0 0 0 20px rgba(0, 0, 0, 0.1);
-  background-image: linear-gradient(
-    rgba(0, 0, 0, 0.7) 0%,
-    rgba(0, 0, 0, 0) 95%
-  );
+  // background-image: linear-gradient(
+  //   rgba(0, 0, 0, 0.7) 0%,
+  //   rgba(0, 0, 0, 0) 95%
+  // );
 }
 .about-me .block-content {
+  margin-left: -150px;
 }
 
 // Skills Styles

@@ -1,6 +1,6 @@
 import React from 'react';
 import SocialIcon from './SocialIcon';
-import profile from '../images/profile-picture-no-bg.png';
+import profile from '../images/profile-picture-gradient.png';
 import Spinner from './Spinner';
 
 const AboutMe = ({ bio, networks }) => {
@@ -17,17 +17,15 @@ const AboutMe = ({ bio, networks }) => {
     );
   };
   return (
-    <div className="container">
+    <div className="container-fluid">
       <div className="about-me my-5">
         <img src={profile} alt="Profile" className="profile-picture" />
         {/* <div className="profile-picture" /> */}
         <div className="block-content">
-          <h2 id="about">About Me</h2>
+          <h1 className="display-4">About Me</h1>
 
           <p>{bio}</p>
-          <div className="justify-content-md-center">
-            {renderSocialIcons(networks)}
-          </div>
+          <div className="justify-content-md-center">{renderSocialIcons(networks)}</div>
         </div>
       </div>
     </div>
