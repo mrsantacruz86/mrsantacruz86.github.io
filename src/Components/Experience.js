@@ -4,7 +4,7 @@ const Experience = props => {
   const { experience } = props;
   return (
     <div className="container">
-      <h2 id="experience">Experience</h2>
+      <h1 className="experience display-4">Experience</h1>
       <div>
         {experience.map((job, index) => (
           <div className="job-item" key={index}>
@@ -18,9 +18,10 @@ const Experience = props => {
                 <div className="dates">May 2017 - Present</div>
               </div>
               <div className="description">
-                Created web app that keeps audits records and generates reports. The app was a
-                secured API using JWT and the UI is built with ReactJS. The app has helped the
-                company to reduce paperwork and boost efficiency.
+                Created web app that keeps audits records and generates reports.
+                The app was a secured API using JWT and the UI is built with
+                ReactJS. The app has helped the company to reduce paperwork and
+                boost efficiency.
               </div>
             </div>
           </div>

@@ -1,0 +1,96 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  margin: 0;
+  padding: 0;
+  // font-family: Palatino, Georgia, 'Times New Roman', serif;
+}
+
+.jumbotron {
+  min-height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../images/bg-presentation.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.jumbotron-content {
+  color: white;
+}
+
+// About me Section Styles.
+.about-me {
+  display: flex;
+  align-items: center;
+  background-image: url('../images/profile-picture-gradient.png');
+  background-repeat: no-repeat;
+  background-size: 24rem;
+  background-position-x: top left;
+  // height:
+}
+.profile-picture {
+  opacity: 0.5;
+}
+.about-me .block-content {
+  margin-left: 24vw;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.social-icon {
+  color: $light;
+}
+
+// Skills Section Styles
+.square-medium {
+  display: inline-block;
+}
+.vector {
+  box-sizing: content-box;
+  width: 6rem;
+  background-image: linear-gradient(-45deg, $gray-900, $gray-500);
+}
+.skill-label-card {
+  display: inline-block;
+  background-image: linear-gradient(-45deg, $gray-900, $gray-500);
+}
+.skill-label {
+  display: inline-block;
+  vertical-align: middle;
+  box-sizing: content-box;
+  width: 6rem;
+  height: 6rem;
+}
+.skill-title {
+}
+
+// Experience section styles
+// line width
+$spacer: 1rem;
+$details-line-width: 0.2rem;
+$details-line-color: #7b8a8b;
+$checkpoint-right-margin: $details-line-width * 3 / 2 + $spacer;
+
+.details {
+  margin-left: $details-line-width / 2;
+  border-left: $details-line-width solid $details-line-color;
+  padding-left: $details-line-width * 2 + $spacer;
+  padding-bottom: $details-line-width * 3;
+  // margin-bottom: $details-line-width / 2;
+}
+.colored {
+  background-color: white;
+}
+.checkpoint {
+  display: inline-block;
+  width: $details-line-width * 2;
+  height: $details-line-width * 2;
+
+  border-radius: 50%;
+  margin-right: $checkpoint-right-margin;
+  // border: 0.3rem solid $details-line-color;
+  // margin-left: -0.5rem;
+}

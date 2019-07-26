@@ -7,7 +7,7 @@ const BurgerBtn = props => {
   return (
     <div onClick={props.onClick}>
       <svg
-        class="burgerBtn"
+        className="burgerBtn"
         version="1.1"
         viewBox="0 0 100 100"
         xmlns="http://www.w3.org/2000/svg"
@@ -18,8 +18,8 @@ const BurgerBtn = props => {
           <g
             fill="none"
             stroke={props.color || '#000'}
-            stroke-linecap={props.linecap || 'flat'}
-            stroke-width="15"
+            strokeLinecap={props.linecap || 'flat'}
+            strokeWidth="15"
           >
             <path className={'btnBar1' + changed} d="M10 20h80" />
             <path className={'btnBar2' + changed} d="M10 50h80" />

@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState } from 'react';
 
 const Skill = ({ image, skillId, onClickSkill, active }) => {
   return (
@@ -16,7 +16,7 @@ const Skill = ({ image, skillId, onClickSkill, active }) => {
               <h5>{image.name}</h5>
               <h6>{image.type}</h6>
               {/* <h6>{image.score}%</h6> */}
-              <div className="progress" style={{ height: "1rem" }}>
+              <div className="progress" style={{ height: '1rem' }}>
                 <div
                   className="progress-bar"
                   style={{ width: `${image.score}%` }}
@@ -47,8 +47,10 @@ const Skills = ({ skills }) => {
   };
 
   return (
-    <div>
-      <h2 id="tech">Technologies</h2>
+    <div className="container">
+      <h1 id="tech" className="display-4">
+        Technologies
+      </h1>
       <div>
         <div className="thumbnail-list">
           {skills.map((skill, index) => (
