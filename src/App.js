@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import SideBar from './Components/SideBar';
 import Presentation from './Components/Presentation';
 import AboutMe from './Components/AboutMe';
-// import Portfolio from "./Components/Portfolio";
+import Portfolio from './Components/Portfolio';
 import Skills from './Components/Skills';
 import Experience from './Components/Experience';
 
@@ -13,7 +13,8 @@ class App extends Component {
     skills: data.skills.filter(skill => skill.show),
     bio: data.bio,
     experience: data.experience,
-    networks: data.networks.filter(network => network.show)
+    networks: data.networks.filter(network => network.show),
+    projects: data.projects
   };
   render() {
     // console.log(data.experience);
@@ -28,6 +29,7 @@ class App extends Component {
           <Presentation {...this.state} />
           <Experience experience={this.state.experience} />
           <AboutMe {...this.state} />
+          <Portfolio projects={this.state.projects} />
           <Skills skills={this.state.skills} />
         </section>
       </div>

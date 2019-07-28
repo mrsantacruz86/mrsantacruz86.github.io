@@ -1,12 +1,15 @@
-import React, { Component } from 'react';
-import PortfolioCollection from './PortfolioCollection';
+import React from 'react';
+import PortfolioItem from './PortfolioItem';
+import { directive } from '@babel/types';
 
-const Portfolio = props => {
+const Portfolio = ({ projects }) => {
   return (
-    <div>
-      <h1 id="portfolio">Portfolio</h1>
-      <hr />
-      <PortfolioCollection collection={props.projects} />
+    <div className="container">
+      <ul className="list-unstyled">
+        {projects.map(project => (
+          <PortfolioItem project={project} key={project.id} />
+        ))}
+      </ul>
     </div>
   );
 };

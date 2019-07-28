@@ -1,40 +1,29 @@
-import React, { Component } from "react";
+import React from 'react';
 
-class NavLink extends Component {
-  render() {
-    const {
-      id,
-      projectName,
-      github,
-      website,
-      description
-    } = this.props.project;
-    return (
-      <div className="portfolio-item col-md-3">
-        <div className="card">
-          <img
-            className="card-img-top"
-            src={`assets/screenshots/img${id}.png`}
-            alt="Project Screenshot"
-          />
-          <div className="card-body">
-            <h5 className="card-title">{projectName}</h5>
-            <p>{description}</p>
-            <p>
-              <a href={github} target="_blank" rel="noopener noreferrer">
-                <i className="fab fa-github" /> GitHub
-              </a>
-              <br />
-              <a href={website} target="_blank" rel="noopener noreferrer">
-                <i className="fas fa-globe-americas" /> Demo
-              </a>
-              <br />
-            </p>
-          </div>
-        </div>
+const PortfolioItem = props => {
+  const { id, projectName, github, website, description } = props.project;
+  return (
+    <li className="media my-3">
+      <img
+        className="project-thumbnail mr-3"
+        src={`assets/screenshots/img${id}.png`}
+        alt="Project Screenshot"
+      />
+      <div className="media-body">
+        <h5 className="mt-0 mb-1">{projectName}</h5>
+        <p>{description}</p>
+        <p>
+          <a href={github} target="_blank" rel="noopener noreferrer">
+            <i className="fab fa-github" /> GitHub
+          </a>
+          <a href={website} target="_blank" rel="noopener noreferrer">
+            <i className="fas fa-globe-americas" /> Demo
+          </a>
+          <br />
+        </p>
       </div>
-    );
-  }
-}
+    </li>
+  );
+};
 
-export default NavLink;
+export default PortfolioItem;
