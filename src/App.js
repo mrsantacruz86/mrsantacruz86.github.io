@@ -4,7 +4,7 @@ import Presentation from './Components/Presentation';
 import AboutMe from './Components/AboutMe';
 import Portfolio from './Components/Portfolio';
 import Skills from './Components/Skills';
-import Experience from './Components/Experience';
+// import Experience from './Components/Experience';
 
 import data from './bio-data.json';
 
@@ -19,7 +19,7 @@ class App extends Component {
   render() {
     // console.log(data.experience);
     return (
-      <div className="App bg-dark text-light">
+      <div className="App">
         <section>
           <SideBar />
         </section>
@@ -27,7 +27,7 @@ class App extends Component {
         <section className="content">
           {/* <Portfolio /> */}
           <Presentation {...this.state} />
-          <Experience experience={this.state.experience} />
+          {/* <Experience experience={this.state.experience} /> */}
           <AboutMe {...this.state} />
           <Portfolio projects={this.state.projects} />
           <Skills skills={this.state.skills} />

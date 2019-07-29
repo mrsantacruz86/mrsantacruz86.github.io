@@ -3,7 +3,7 @@ import React from 'react';
 const PortfolioItem = props => {
   const { id, projectName, github, website, description } = props.project;
   return (
-    <li className="media my-3">
+    <li className="list-group-item media">
       <img
         className="project-thumbnail mr-3"
         src={`assets/screenshots/img${id}.png`}

@@ -19,16 +19,19 @@ const AboutMe = ({ bio, networks }) => {
   return (
     <div className="container">
       <div className="about-me my-5">
-        {/* <img src={profile} alt="Profile" className="profile-picture" /> */}
-        <div className="profile-picture" />
-        <div className="block-content text-center">
-          <h1 className="display-4">About Me</h1>
-
-          <p>{bio}</p>
-          <div className="justify-content-md-center">
-            {renderSocialIcons(networks)}
+        <div className="row">
+          <div className="col-md-4">
+            <img src={profile} alt="Profile" className="img-fluid profile-picture" />
+          </div>
+          <div className="col-md-8">
+            <div className="block-content">
+              <h1 className="display-4">About Me</h1>
+              <p>{bio}</p>
+              <p className="justify-content-center">{renderSocialIcons(networks)}</p>
+            </div>
           </div>
         </div>
+        {/* <div className="profile-picture" /> */}
       </div>
     </div>
   );

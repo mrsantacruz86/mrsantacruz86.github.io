@@ -26,17 +26,17 @@ body {
 .about-me {
   display: flex;
   align-items: center;
-  background-image: url('../images/profile-picture-gradient.png');
-  background-repeat: no-repeat;
-  background-size: 24rem;
-  background-position-x: top left;
+  // background-image: url('../images/profile-picture-gradient.png');
+  // background-repeat: no-repeat;
+  // background-size: 24rem;
+  // background-position-x: top left;
   // height:
 }
 .profile-picture {
-  opacity: 0.5;
+  // opacity: 0.5;
 }
 .about-me .block-content {
-  margin-left: 24vw;
+  // margin-left: 24vw;
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -97,5 +97,5 @@ $checkpoint-right-margin: $details-line-width * 3 / 2 + $spacer;
 
 // Portfolio
 .project-thumbnail {
-  width: 15rem;
+  height: 6rem;
 }
