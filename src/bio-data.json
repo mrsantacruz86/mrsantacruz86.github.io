@@ -6,25 +6,25 @@
       "type": "Language",
       "icon": "assets/vectors/javascript.svg",
       "show": true,
-      "score": 95
+      "score": 100
     },
     {
       "name": "NodeJS",
       "type": "Back-end",
       "icon": "assets/vectors/nodejs-1.svg",
       "show": true,
-      "score": 95
+      "score": 100
     },
     {
       "name": "ReactJs",
-      "type": "Language",
+      "type": "Front End",
       "icon": "assets/vectors/reactjs.svg",
       "show": true,
       "score": 100
     },
     {
       "name": "React Native",
-      "type": "Language",
+      "type": "Mobile UI",
       "icon": "assets/vectors/react-native.svg",
       "show": false,
       "score": 30
@@ -138,8 +138,8 @@
       "name": "Python",
       "type": "Language",
       "icon": "assets/vectors/python.svg",
-      "show": true,
-      "score": 40
+      "show": false,
+      "score": 30
     },
     {
       "name": "Mocha",

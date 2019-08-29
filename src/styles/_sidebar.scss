@@ -37,8 +37,15 @@ $sidebar-width: 16rem;
   width: $sidebar-width;
 }
 
-.navigation-backdrop {
-  background-color: #818181;
-  width: 100% !important;
-  height: 100% !important;
-}
+// .navigation-backdrop {
+//   position: fixed;
+//   top: 0;
+//   left: 0;
+//   z-index: 999;
+//   background-color: #818181;
+//   width: 100vw !important;
+//   height: 100vh !important;
+// }
+// .backdrop-hide {
+//   display: none !important;
+// }

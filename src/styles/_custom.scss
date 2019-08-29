@@ -97,5 +97,6 @@ $checkpoint-right-margin: $details-line-width * 3 / 2 + $spacer;
 
 // Portfolio
 .project-thumbnail {
-  height: 6rem;
+  height: 100%;
+  object-fit: cover;
 }

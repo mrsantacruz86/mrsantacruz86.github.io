@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import { createPortal } from 'react-dom';
+
 import BurgerBtn from './BurgerBtn';
 
 const NavLink = ({ route, children }) => {
@@ -11,8 +13,11 @@ const SideBar = props => {
     console.log('clicked');
     return setMenu(!menu);
   };
+  const onCloseMenu = () => {
+    return setMenu(false);
+  };
 
-  return (
+  return createPortal(
     <div className="navigation-backdrop">
       <nav className={menu ? 'sidebar sidebar-open' : 'sidebar'}>
         <div className="navlinks-wrapper">
@@ -37,7 +42,8 @@ const SideBar = props => {
         </div>
       </nav>
       <BurgerBtn onClick={onMenuBtnClick} color="#888" changed={menu} size="2rem" linecap="round" />
-    </div>
+    </div>,
+    document.querySelector('#side-nav')
   );
 };
 

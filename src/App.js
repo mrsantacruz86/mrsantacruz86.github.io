@@ -32,6 +32,7 @@ class App extends Component {
           <Portfolio projects={this.state.projects} />
           <Skills skills={this.state.skills} />
         </section>
+        <footer className="footer"></footer>
       </div>
     );
   }
