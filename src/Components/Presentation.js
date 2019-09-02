@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Presentation = () => {
+const Presentation = props => {
   return (
     // This type of presentation is called hero image
     <div className="jumbotron jumbotron-fluid">

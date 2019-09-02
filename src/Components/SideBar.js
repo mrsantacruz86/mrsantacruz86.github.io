@@ -21,7 +21,7 @@ const SideBar = props => {
     <div className="navigation-backdrop">
       <nav className={menu ? 'sidebar sidebar-open' : 'sidebar'}>
         <div className="navlinks-wrapper">
-          <NavLink route="/">
+          <NavLink route="#">
             <i className="fas fa-home" /> Home
           </NavLink>
           <NavLink route="#about">
@@ -30,9 +30,9 @@ const SideBar = props => {
           <NavLink route="#portfolio">
             <i className="fas fa-suitcase" /> Portfolio
           </NavLink>
-          <NavLink route="#experience">
+          {/* <NavLink route="#experience">
             <i className="fas fa-laptop-code" /> Experience
-          </NavLink>
+          </NavLink> */}
           <NavLink route="#tech">
             <i className="fas fa-microchip" /> Technologies
           </NavLink>

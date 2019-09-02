@@ -26,7 +26,7 @@ class App extends Component {
 
         <section className="content">
           {/* <Portfolio /> */}
-          <Presentation {...this.state} />
+          <Presentation />
           {/* <Experience experience={this.state.experience} /> */}
           <AboutMe {...this.state} />
           <Portfolio projects={this.state.projects} />

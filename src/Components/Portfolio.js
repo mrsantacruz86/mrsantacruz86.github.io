@@ -4,8 +4,9 @@ import { directive } from '@babel/types';
 
 const Portfolio = ({ projects }) => {
   return (
-    <div className="container mb-5" id="portfolio">
-      <h1 className="display-4 mb-5">Portfolio</h1>
+    <div className="container" id="portfolio">
+      <h1 className="display-4 my-4">Portfolio</h1>
+      {/* <h5 className="mb-4">Some of my work here...</h5> */}
       <div className="row no-gutter">
         {projects.map(project => (
           <PortfolioItem project={project} key={project.id} />

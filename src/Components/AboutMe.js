@@ -18,7 +18,7 @@ const AboutMe = ({ bio, networks }) => {
   };
   return (
     <div className="container">
-      <div className="about-me my-5">
+      <div className="about-me my-5" id="about">
         <div className="row">
           <div className="col-md-4">
             <img src={profile} alt="Profile" className="img-fluid profile-picture" />
