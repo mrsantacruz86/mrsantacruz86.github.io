@@ -2,15 +2,11 @@ import React, { useState } from 'react';
 
 const Skill = ({ image, skillId, onClickSkill, active }) => {
   return (
-    <div
-      id={skillId}
-      onClick={onClickSkill}
-      className="square-medium img-fluid"
-    >
+    <div id={skillId} onClick={onClickSkill} className="square-medium img-fluid">
       {!active ? (
         <img src={image.icon} className="vector p-4" alt={image.name} />
       ) : (
-        <div className="skill-label-card p-4">
+        <div className="skill-label-card">
           <div className="skill-label">
             <div className="skill-title">
               <h5>{image.name}</h5>
@@ -52,7 +48,7 @@ const Skills = ({ skills }) => {
         Technologies
       </h1>
       <div>
-        <div className="thumbnail-list">
+        <div className="thumbnail-list d-flex flex-wrap">
           {skills.map((skill, index) => (
             <Skill
               image={skill}
