@@ -2,7 +2,7 @@ const path = require("path");
 
 const webpack = require("webpack");
 const HtmlWebpackPlugin = require('html-webpack-plugin');
-const CleanWebpackPlugin = require('clean-webpack-plugin');
+const {CleanWebpackPlugin} = require('clean-webpack-plugin');
 const UglifyJsPlugin = require('uglifyjs-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
@@ -22,8 +22,7 @@ module.exports = {
     ]
   },
   entry: {
-    main: "./src/js/app.js",
-    about: "./src/js/about.js"
+    main: "./js/main.js"
   },
   output: {
     filename: "[name].bundle.js",
@@ -76,11 +75,7 @@ module.exports = {
     new CleanWebpackPlugin(),
     new HtmlWebpackPlugin({
       filename: "index.html",
-      template: "./src/index.html"
-    }),
-    new HtmlWebpackPlugin({
-      filename: "about-us.html",
-      template: "./src/about-us.html"
+      template: "./index.html"
     }),
     //To generate more html files for production just add a new HtmlWebpackPlugin()
 
